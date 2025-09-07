@@ -7,7 +7,7 @@ jobs:
   stale:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/stale@v7
+      - uses: actions/stale@v10
         with:
           only-labels: "triage/stale-test"
           stale-issue-message: |
