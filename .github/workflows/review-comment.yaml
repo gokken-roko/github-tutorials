@@ -9,7 +9,7 @@ jobs:
     if: github.event.label.name == 'triage/review'
     steps:
       - name: Post Comment
-        uses: actions/github-script@v6.4.0
+        uses: actions/github-script@v8.0.0
         env:
           MESSAGE: |
            `triage/review` ラベルでレビューがリクエストされました
